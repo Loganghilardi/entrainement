@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tableau de Bord - CE-RATP</title>
+	<meta charset="utf-8">
+	<link rel="Shortcut icon" href="favicons.ico" type="image/x-icon" />
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+	<header id="s">
+		<div class="divmenu">
+			<ul  class="menu">
+				<a href="#"><img src="logo.png"></a>
+				<li><a class="link"  href="#">Tableau de bord</a></li>
+				<li><a class="link" href="#">Contenus</a></li>
+				<li><a class="link" href="#">Médiathèque</a></li>
+				<li><a class="link" href="#">Comptes utilisateurs</a></li>
+				<li><a class="link"  href="#">Administration</a></li>
+				<li><a class="link" href="#">eZ Tags</a></li>
+				<li><a class="link" href="#">eZ Find</a></li>
+				<li><a class="linksp" href="#">Service portal</a></li>
+				<li><a class="link" href="#">Newsletter</a></li>
+				<a id="deco">Déco</a>
+				<input type="text" class="search" name="search" value="Search / Rechercher..." onfocus="if(this.value=='Search / Rechercher...')this.value=''" onblur="if(this.value=='')this.value='Search / Rechercher...'" autocomplete="off"/>
+				<input type="button" name="button" class="btn">
+			</ul>
+		</div>
+	</header>
+
+	<div class="container-fluid" >
+		<div class="row" style="background-image: url(textile.jpg);">
+			<div class="col-lg-2" style="background-image: url(texture.jpg); margin-top:3vh;">
+				<div style="background-color: white;box-shadow:  0 0 5px black;">
+					<h1>Comptes utilisateurs</h1>
+					<ul>
+						<li>Users</li>
+						<div>
+							<ul>
+								<li>Members</li>
+								<li>Administrator users</li>
+								<li>Editors</li>
+								<li>Anonymous users</li>
+								<li>Anonymous v2</li>
+								<li>Partners</li>
+							</ul>
+						</div>
+						<li>Corbeille</li>
+					</ul>
+					<h1>Contrôle d'accès</h1>
+					<ul>
+						<li>Rôles et droits</li>
+						<li>unactived</li>
+						<li>Importer d'utilisateurs depuis un fichier CSV</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-lg-8" style="background-image: url(texture.jpg);margin: 3vh;">
+				<div style="background-color: white; margin-top: 3vh; box-shadow:  0 0 5px black; margin-bottom: 2vh;">
+					<p >Vous êtes ici: Users</p>
+					<h2>Users[User group]</h2>
+					<p>Dernière modification: 07/09/2011 18:12, Internet Administrateur (Node ID: 5, Object ID: 4)</p>
+
+					<ul class="eme">
+						<li>Apercu</li>
+						<li>Details</li>
+						<li>Traductions</li>
+						<li>Emplacements</li>
+						<li>Relations</li>
+						<li>Classement</li>
+						<li>Roles</li>
+						<li>Politiques de sécurité</li>
+					</ul>
+					<div class="rectangle" style="border: 1px #ffffff solid; background-color: #f5f5f5;">
+						<h5><strong>Name:</strong></h5>
+						<p>Users</p>
+						<h5><strong>Description:</strong></h5>
+						<p>Main group</p>
+						<h5><strong>Website toolbar access</strong></h5>
+						<p>Non</p>
+
+
+					</div>
+					<div style="display: flex;flex-direction: row;">
+						<form style="margin-top: 3vh;">
+							<select name="liste" size="1">
+								<option>France(Francais)</option>
+								<option>Nouvelle traduction</option>
+							</select>
+						</form>
+						<button type="button" style="height: 3vh ; margin-top: 2.5vh;">Modifier</button>
+						<button type="button" style="height: 3vh;margin-top: 2.5vh;">Prévisualisation</button>
+						<button type="button" style="height: 3vh;margin-top: 2.5vh;" disabled>Déplacer</button>
+						<button type="button" style="height: 3vh;margin-top: 2.5vh;" disabled>Supprimer</button>
+					</div>
+					<h1 style="margin-top: 3vh;">Sub items (6)</h1>
+					<div style="display: flex;flex-direction: row;">
+						<button type="button" style="height: 3vh ; margin-top: 2.5vh;">Sélectionner</button>
+						<button type="button" style="height: 3vh ; margin-top: 2.5vh;">Créer un nouvel élément</button>
+						<button type="button" style="height: 3vh ; margin-top: 2.5vh;">Plus d'actions</button>
+						<button type="button" style="height: 3vh ; margin-top: 2.5vh;">Option du tableau</button>
+						
+					</div>
+					<table>
+						<thead>
+							<tr style="font-size: 1.1em;">
+								<td></td>
+								<td></td>
+								<th>Nom</th>
+								<th>Modificateurs</th>
+								<th>Publié</th>
+
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td></td>
+								<td></td>
+								<td>Members</td>
+								<td>Internet Administrateur</td>
+								<td>06/10/2002 18:12</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td>Administrator users</td>
+								<td>Administrator User</td>
+								<td>06/10/2002 18:12</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td>Editors</td>
+								<td>Administrator User</td>
+								<td>06/10/2002 18:13</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td>Anonymous users</td>
+								<td>Administrator User</td>
+								<td>23/12/2003 12:52</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td>Partners</td>
+								<td>Administrator User</td>
+								<td>04/12/2008 12:10</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td>Anonymous V2</td>
+								<td>Administrator User</td>
+								<td>08/04/2015 16:00</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+		</div>
+		<div class="col-lg-" style="background-image: url(texture.jpg);margin-top:3vh; width: 26vh">
+			<div style="background-color: white; margin-top: 3vh; box-shadow:  0 0 5px black; margin-bottom: 2vh;">
+				<h1>Utilisateur en cours</h1>
+				<a>CYBER TEST2</a>
+				<ul>
+					<li>Modifier mon profil</li>
+					<li>Modifier mon mot de passe</li>
+				</ul>
+				<h1>Signets</h1>
+				<button>Ajouter aux signets</button>
+				<h1>Vider le cache</h1>
+				<form style="margin-top: 3vh;">
+					<select name="liste" size="1">
+						<option>Tous les caches</option>
+						<option>Contenu</option>
+						<option>Contenu - noeud</option>
+						<option>Contenu - sous-arborescence</option>
+						<option>Template</option>
+						<option>Template & Contenu</option>
+						<option>Configuration.ini</option>
+						<option>Statique</option>
+					</select>
+				</form>
+				<button>Vider</button>
+				<h1>Configuration rapide</h1>
+				<form style="display: flex;flex-direction: column">
+					<label>
+                           <input type="checkbox" name="SelectedList[]" value="0">
+                    	 Debug output
+              		</label>
+					<label>
+						<input type="checkbox" name="SelectedList[]" value="1">Debug redirection
+					</label>
+					<label>
+						<input type="checkbox" name="SelectedList[]" value="2">Template Debug
+					</label>
+					<label>
+						<input type="checkbox" name="SelectedList[]" value="3">Inline Template Debug
+					</label>
+					<label>
+						<input type="checkbox" name="SelectedList[]" value="4">List of used template
+					</label>
+					<label>
+						<input type="checkbox" name="SelectedList[]" value="5">SQL debug output
+					</label>
+				</form>
+				<p>siteacces:</p>
+				<form>
+					<select>
+						<option>Général(override)</option>
+						<option>ceratp</option>
+						<option>ceratp_dev</option>
+						<option>ezflow_site_admin</option>
+					</select>
+				</form>
+				<button>Définir</button>
+			</div>
+		</div>
+	</div>
+
+
+</body>
+</html>

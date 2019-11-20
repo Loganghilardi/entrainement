@@ -1,0 +1,60 @@
+
+li {
+
+	margin: 15px;
+	margin-top: 2.5vh;
+	text-shadow: -1px -1px 1px black;
+	font-size: 1em;
+
+}
+
+.link { color: #b7b7b7; } 
+.link:hover { color: #ffe9bd; } .link:active { color: #ffe9bd; } 
+html{
+	background-image: url(textile.jpg);
+}
+#s{
+	text-align: center;
+	background-image: url(textile.jpg);
+	height:7vh;
+
+
+}
+.menu{
+	display:flex;
+	flex-direction: row;
+	list-style: none;
+
+
+
+
+}
+a{
+	margin-top: 10px;
+}
+.linksp { color: #62cfde; text-shadow: none; } 
+.linksp:hover { color: #ffe9bd;text-shadow: none; } 
+
+
+.search{
+	height: 3vh;
+		margin-left: 60vh;
+	margin-top: 2vh;
+	
+}
+.btn{
+	width: 1vh;
+	height: 3vh;
+	margin-top: 2vh;
+	margin-left: 1vh;
+}
+#deco{
+	margin
+}
+
+
+.eme{
+display: flex;
+flex-direction: row;
+
+}
