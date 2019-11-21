@@ -1,5 +1,5 @@
 
-li {
+.hmenu {
 
 	margin: 15px;
 	margin-top: 2.5vh;
@@ -38,8 +38,9 @@ a{
 
 .search{
 	height: 3vh;
-		margin-left: 60vh;
+	margin-left: 60vh;
 	margin-top: 2vh;
+	width: 145px;
 	
 }
 .btn{
@@ -57,4 +58,24 @@ a{
 display: flex;
 flex-direction: row;
 
+}
+button{
+
+	color: #44484d;
+	background: #fff;
+	border: 1px solid #cfd1d3;
+	border-radius: 3px;
+	font-size: 1em;
+	margin-left: 5px;
+	padding: 3px 6px;
+	-webkit-transition: all 300ms ease;
+	-moz-transition: all 300ms ease;
+	-ms-transition: all 300ms ease;
+	-o-transition: all 300ms ease;
+	transition: all 300ms ease;
+
+}
+
+.leftmenu{
+	
 }

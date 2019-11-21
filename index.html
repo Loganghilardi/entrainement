@@ -16,15 +16,15 @@
 		<div class="divmenu">
 			<ul  class="menu">
 				<a href="#"><img src="logo.png"></a>
-				<li><a class="link"  href="#">Tableau de bord</a></li>
-				<li><a class="link" href="#">Contenus</a></li>
-				<li><a class="link" href="#">Médiathèque</a></li>
-				<li><a class="link" href="#">Comptes utilisateurs</a></li>
-				<li><a class="link"  href="#">Administration</a></li>
-				<li><a class="link" href="#">eZ Tags</a></li>
-				<li><a class="link" href="#">eZ Find</a></li>
-				<li><a class="linksp" href="#">Service portal</a></li>
-				<li><a class="link" href="#">Newsletter</a></li>
+				<li class="hmenu"><a class="link"  href="#">Tableau de bord</a></li>
+				<li class="hmenu"><a class="link" href="#">Contenus</a></li>
+				<li class="hmenu"><a class="link" href="#">Médiathèque</a></li>
+				<li class="hmenu"><a class="link" href="#">Comptes utilisateurs</a></li>
+				<li class="hmenu"><a class="link"  href="#">Administration</a></li>
+				<li class="hmenu"><a class="link" href="#">eZ Tags</a></li>
+				<li class="hmenu"><a class="link" href="#">eZ Find</a></li>
+				<li class="hmenu"><a class="linksp" href="#">Service portal</a></li>
+				<li class="hmenu"><a class="link" href="#">Newsletter</a></li>
 				<a id="deco">Déco</a>
 				<input type="text" class="search" name="search" value="Search / Rechercher..." onfocus="if(this.value=='Search / Rechercher...')this.value=''" onblur="if(this.value=='')this.value='Search / Rechercher...'" autocomplete="off"/>
 				<input type="button" name="button" class="btn">
@@ -34,33 +34,33 @@
 
 	<div class="container-fluid" >
 		<div class="row" style="background-image: url(textile.jpg);">
-			<div class="col-lg-2" style="background-image: url(texture.jpg); margin-top:3vh;">
-				<div style="background-color: white;box-shadow:  0 0 5px black;">
-					<h1>Comptes utilisateurs</h1>
+			<div class="col-lg-2" style="background-image: url(texture.jpg); margin-top:1vh;height: 85.5vh;">
+				<div style="background-color: white;box-shadow:  0 0 5px black;margin-top: 3vh;height: 81vh;">
+					<h1 style="font-size: 1.5em;"><strong>Comptes utilisateurs</strong></h1>
 					<ul>
-						<li>Users</li>
+						<li><a>Users</a></li>
 						<div>
-							<ul>
-								<li>Members</li>
-								<li>Administrator users</li>
-								<li>Editors</li>
-								<li>Anonymous users</li>
-								<li>Anonymous v2</li>
-								<li>Partners</li>
+							<ul class="leftmenu">
+								<li><a>Members</a></li>
+								<li><a>Administrator users</a></li>
+								<li><a>Editors</a></li>
+								<li><a>Anonymous users</a></li>
+								<li><a>Anonymous v2</a></li>
+								<li><a>Partners</a></li>
 							</ul>
 						</div>
-						<li>Corbeille</li>
+						<li><a>Corbeille</a></li>
 					</ul>
-					<h1>Contrôle d'accès</h1>
-					<ul>
-						<li>Rôles et droits</li>
-						<li>unactived</li>
-						<li>Importer d'utilisateurs depuis un fichier CSV</li>
+					<h1 style="font-size: 1.5em;"><strong>Contrôle d'accès</strong></h1>
+					<ul >
+						<li><a>Rôles et droits</a></li>
+						<li><a>unactived</a></li>
+						<li><a>Importer d'utilisateurs depuis un fichier CSV</a></li>
 					</ul>
 				</div>
 			</div>
-			<div class="col-lg-8" style="background-image: url(texture.jpg);margin: 3vh;">
-				<div style="background-color: white; margin-top: 3vh; box-shadow:  0 0 5px black; margin-bottom: 2vh;">
+			<div class="col-lg-8" style="background-image: url(texture.jpg);margin-top: 1vh;margin-left: 1vh;margin-right: 1vh;height: 85.5vh;">
+				<div style="background-color: white; margin-top: 3vh; box-shadow:  0 0 5px black; margin-bottom: 2vh;height: 81vh;">
 					<p >Vous êtes ici: Users</p>
 					<h2>Users[User group]</h2>
 					<p>Dernière modification: 07/09/2011 18:12, Internet Administrateur (Node ID: 5, Object ID: 4)</p>
@@ -92,17 +92,17 @@
 								<option>Nouvelle traduction</option>
 							</select>
 						</form>
-						<button type="button" style="height: 3vh ; margin-top: 2.5vh;">Modifier</button>
-						<button type="button" style="height: 3vh;margin-top: 2.5vh;">Prévisualisation</button>
-						<button type="button" style="height: 3vh;margin-top: 2.5vh;" disabled>Déplacer</button>
-						<button type="button" style="height: 3vh;margin-top: 2.5vh;" disabled>Supprimer</button>
+						<button type="button" style="height: 2.7vh ; margin-top: 2.8vh;">Modifier</button>
+						<button type="button" style="height: 2.7vh;margin-top: 2.8vh;">Prévisualisation</button>
+						<button type="button" style="height: 2.7vh;margin-top: 2.8vh;background-color: grey " disabled>Déplacer</button>
+						<button type="button" style="height: 2.7vh;margin-top: 2.8vh;background-color: grey" disabled>Supprimer</button>
 					</div>
 					<h1 style="margin-top: 3vh;">Sub items (6)</h1>
 					<div style="display: flex;flex-direction: row;">
-						<button type="button" style="height: 3vh ; margin-top: 2.5vh;">Sélectionner</button>
-						<button type="button" style="height: 3vh ; margin-top: 2.5vh;">Créer un nouvel élément</button>
-						<button type="button" style="height: 3vh ; margin-top: 2.5vh;">Plus d'actions</button>
-						<button type="button" style="height: 3vh ; margin-top: 2.5vh;">Option du tableau</button>
+						<button type="button" style="height: 2.7vh ; margin-top: 2.8vh;">Sélectionner</button>
+						<button type="button" style="height: 2.7vh ; margin-top: 2.8vh;">Créer un nouvel élément</button>
+						<button type="button" style="height: 2.7vh ; margin-top: 2.8vh;">Plus d'actions</button>
+						<button type="button" style="height: 2.7vh ; margin-top: 2.8vh;">Option du tableau</button>
 						
 					</div>
 					<table>
@@ -118,8 +118,8 @@
 						</thead>
 						<tbody>
 							<tr>
-								<td></td>
-								<td></td>
+								<td><input type="checkbox" name=""> </td>
+								<td><input type="checkbox" name=""> </td>
 								<td>Members</td>
 								<td>Internet Administrateur</td>
 								<td>06/10/2002 18:12</td>
@@ -163,17 +163,17 @@
 					</table>
 				</div>
 		</div>
-		<div class="col-lg-" style="background-image: url(texture.jpg);margin-top:3vh; width: 26vh">
+		<div class="col-lg-2" style="background-image: url(texture.jpg);margin-top:1vh;width: 30vh;">
 			<div style="background-color: white; margin-top: 3vh; box-shadow:  0 0 5px black; margin-bottom: 2vh;">
-				<h1>Utilisateur en cours</h1>
+				<h1 style="font-size: 1.5em;"><strong>Utilisateurs en cours</strong></h1>
 				<a>CYBER TEST2</a>
 				<ul>
 					<li>Modifier mon profil</li>
 					<li>Modifier mon mot de passe</li>
 				</ul>
-				<h1>Signets</h1>
+				<h1 style="font-size: 1.5em;"><strong>Signets</strong></h1>
 				<button>Ajouter aux signets</button>
-				<h1>Vider le cache</h1>
+				<h1 style="font-size: 1.5em;"><strong>Vider le cache</strong></h1>
 				<form style="margin-top: 3vh;">
 					<select name="liste" size="1">
 						<option>Tous les caches</option>
@@ -187,7 +187,7 @@
 					</select>
 				</form>
 				<button>Vider</button>
-				<h1>Configuration rapide</h1>
+				<h1 style="font-size: 1.5em;"><strong>Configuration rapide</strong></h1>
 				<form style="display: flex;flex-direction: column">
 					<label>
                            <input type="checkbox" name="SelectedList[]" value="0">
