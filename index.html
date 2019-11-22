@@ -26,7 +26,7 @@
 				<li class="hmenu"><a class="linksp" href="#">Service portal</a></li>
 				<li class="hmenu"><a class="link" href="#">Newsletter</a></li>
 				<a id="deco">Déco</a>
-				<input type="text" class="search" name="search" value="Search / Rechercher..." onfocus="if(this.value=='Search / Rechercher...')this.value=''" onblur="if(this.value=='')this.value='Search / Rechercher...'" autocomplete="off"/>
+				<input type="text" class="search" name="search" value=" Rechercher..." onfocus="if(this.value=='Search / Rechercher...')this.value=''" onblur="if(this.value=='')this.value='Search / Rechercher...'" autocomplete="off"/>
 				<input type="button" name="button" class="btn">
 			</ul>
 		</div>
@@ -34,10 +34,10 @@
 
 	<div class="container-fluid" >
 		<div class="row" style="background-image: url(textile.jpg);">
-			<div class="col-lg-2" style="background-image: url(texture.jpg); margin-top:1vh;height: 85.5vh;">
-				<div style="background-color: white;box-shadow:  0 0 5px black;margin-top: 3vh;height: 81vh;">
-					<h1 style="font-size: 1.5em;"><strong>Comptes utilisateurs</strong></h1>
-					<ul>
+			<div class="col-lg-2" style="background-image: url(texture.jpg); margin-top:vh;height: 90vh;">
+				<div style="background-color: white;box-shadow:  0 0 5px black;margin-top: 2vh;height: 86vh;padding: 0.1vh;">
+					<h1 style="font-size: 1.5em;padding-top: 0.8em;border-top: 1px dashed #ddd;"><strong>Comptes utilisateurs</strong></h1>
+					<ul style="list-style-image: url(user.png);">
 						<li><a>Users</a></li>
 						<div>
 							<ul class="leftmenu">
@@ -49,7 +49,7 @@
 								<li><a>Partners</a></li>
 							</ul>
 						</div>
-						<li><a>Corbeille</a></li>
+						<li style="list-style-image: url(trash.gif);"><a>Corbeille</a></li>
 					</ul>
 					<h1 style="font-size: 1.5em;"><strong>Contrôle d'accès</strong></h1>
 					<ul >
@@ -59,23 +59,26 @@
 					</ul>
 				</div>
 			</div>
-			<div class="col-lg-8" style="background-image: url(texture.jpg);margin-top: 1vh;margin-left: 1vh;margin-right: 1vh;height: 85.5vh;">
-				<div style="background-color: white; margin-top: 3vh; box-shadow:  0 0 5px black; margin-bottom: 2vh;height: 81vh;">
-					<p >Vous êtes ici: Users</p>
-					<h2>Users[User group]</h2>
-					<p>Dernière modification: 07/09/2011 18:12, Internet Administrateur (Node ID: 5, Object ID: 4)</p>
 
-					<ul class="eme">
-						<li>Apercu</li>
-						<li>Details</li>
-						<li>Traductions</li>
-						<li>Emplacements</li>
-						<li>Relations</li>
-						<li>Classement</li>
-						<li>Roles</li>
-						<li>Politiques de sécurité</li>
+
+
+			<div class="col-lg-8" style="background-image: url(texture.jpg);margin-top: vh;margin-left: 1vh;margin-right: 1vh;height: 90vh;">
+				<div style="background-color: white; margin-top: 2vh; box-shadow:  0 0 5px black; margin-bottom: 2vh;height: 86vh;padding: 1vh;">
+					<p style="" >Vous êtes ici: Users</p>
+					<h2 style="font-size: 1.9em;padding-top: 0.8em;border-top: 1px dashed #ddd;"><strong><a><img src="kuser.png" style="margin-bottom: 0.5vh;"></a> Users[User group]</strong></h2>
+					<p>Dernière modification: 13170391400712 , <a>Internet Administrateur</a> (Node ID: 5, Object ID: 4)</p>
+
+					<ul class="eme"style="list-style-type: none;padding-top: 0.8em;border-top: 1px dashed #ddd;" >
+						<li><a>Apercu</a></li>
+						<li><a>Details</a></li>
+						<li><a>Traductions</a></li>
+						<li><a>Emplacements</a></li>
+						<li><a>Relations</a></li>
+						<li><a>Classement</a></li>
+						<li><a>Roles</a></li>
+						<li><a>Politiques de sécurité</a></li>
 					</ul>
-					<div class="rectangle" style="border: 1px #ffffff solid; background-color: #f5f5f5;">
+					<div class="rectangle" style="border: 1px grey solid; background-color: #f5f5f5; padding: 1vh;margin: 1vh;">
 						<h5><strong>Name:</strong></h5>
 						<p>Users</p>
 						<h5><strong>Description:</strong></h5>
@@ -97,7 +100,7 @@
 						<button type="button" style="height: 2.7vh;margin-top: 2.8vh;background-color: grey " disabled>Déplacer</button>
 						<button type="button" style="height: 2.7vh;margin-top: 2.8vh;background-color: grey" disabled>Supprimer</button>
 					</div>
-					<h1 style="margin-top: 3vh;">Sub items (6)</h1>
+					<h1 style="margin-top: 3vh;font-size: 1.5em;padding-top: 0.8em;border-top: 1px dashed #ddd;"><strong>Sub items (6)</strong></h1>
 					<div style="display: flex;flex-direction: row;">
 						<button type="button" style="height: 2.7vh ; margin-top: 2.8vh;">Sélectionner</button>
 						<button type="button" style="height: 2.7vh ; margin-top: 2.8vh;">Créer un nouvel élément</button>
@@ -105,7 +108,7 @@
 						<button type="button" style="height: 2.7vh ; margin-top: 2.8vh;">Option du tableau</button>
 						
 					</div>
-					<table>
+					<table style="width: 100%;margin: 2vh;">
 						<thead>
 							<tr style="font-size: 1.1em;">
 								<td></td>
@@ -119,43 +122,43 @@
 						<tbody>
 							<tr>
 								<td><input type="checkbox" name=""> </td>
-								<td><input type="checkbox" name=""> </td>
-								<td>Members</td>
+								<td><button style="border: none"> <img src="engrenage.png"></button></td>
+								<td><a><img src="user.png"> Members</a></td>
 								<td>Internet Administrateur</td>
 								<td>06/10/2002 18:12</td>
 							</tr>
 							<tr>
-								<td></td>
-								<td></td>
-								<td>Administrator users</td>
+								<td><input type="checkbox" name=""> </td>
+								<td><button style="border: none"> <img src="engrenage.png"></button></td>
+								<td><a><img src="user.png"> Administrator users</a></td>
 								<td>Administrator User</td>
 								<td>06/10/2002 18:12</td>
 							</tr>
 							<tr>
-								<td></td>
-								<td></td>
-								<td>Editors</td>
+								<td><input type="checkbox" name=""> </td>
+								<td><button style="border: none"> <img src="engrenage.png"></button></td>
+								<td><a><img src="user.png">Editors</a></td>
 								<td>Administrator User</td>
 								<td>06/10/2002 18:13</td>
 							</tr>
 							<tr>
-								<td></td>
-								<td></td>
-								<td>Anonymous users</td>
+								<td><input type="checkbox" name=""> </td>
+								<td><button style="border: none"> <img src="engrenage.png"></button></td>
+								<td><a><img src="user.png">Anonymous users</a></td>
 								<td>Administrator User</td>
 								<td>23/12/2003 12:52</td>
 							</tr>
 							<tr>
-								<td></td>
-								<td></td>
-								<td>Partners</td>
+								<td><input type="checkbox" name=""> </td>
+								<td><button style="border: none"> <img src="engrenage.png"></button></td>
+								<td><a><img src="user.png">Partners</a></td>
 								<td>Administrator User</td>
 								<td>04/12/2008 12:10</td>
 							</tr>
 							<tr>
-								<td></td>
-								<td></td>
-								<td>Anonymous V2</td>
+								<td><input type="checkbox" name=""> </td>
+								<td><button style="border: none"> <img src="engrenage.png"></button></td>
+								<td><a><img src="user.png">Anonymous V2</a></td>
 								<td>Administrator User</td>
 								<td>08/04/2015 16:00</td>
 							</tr>
@@ -163,13 +166,13 @@
 					</table>
 				</div>
 		</div>
-		<div class="col-lg-2" style="background-image: url(texture.jpg);margin-top:1vh;width: 30vh;">
-			<div style="background-color: white; margin-top: 3vh; box-shadow:  0 0 5px black; margin-bottom: 2vh;">
+		<div class="col-lg-2" style="background-image: url(texture.jpg);margin-top:vh;width: 30vh;height: 90vh;" >
+			<div style="background-color: white; margin-top: 2vh; box-shadow:  0 0 5px black; margin-bottom: 2vh;height: 86vh;">
 				<h1 style="font-size: 1.5em;"><strong>Utilisateurs en cours</strong></h1>
-				<a>CYBER TEST2</a>
+				<button style="border: none"><img src="current-user.gif"> CYBER TEST2</button>
 				<ul>
-					<li>Modifier mon profil</li>
-					<li>Modifier mon mot de passe</li>
+					<li><a>Modifier mon profil</a></li>
+					<li><a>Modifier mon mot de passe</a></li>
 				</ul>
 				<h1 style="font-size: 1.5em;"><strong>Signets</strong></h1>
 				<button>Ajouter aux signets</button>
@@ -188,28 +191,28 @@
 				</form>
 				<button>Vider</button>
 				<h1 style="font-size: 1.5em;"><strong>Configuration rapide</strong></h1>
-				<form style="display: flex;flex-direction: column">
-					<label>
+				<form style="display: flex;flex-direction: column;">
+					<label style=" font-weight: normal;"> 
                            <input type="checkbox" name="SelectedList[]" value="0">
                     	 Debug output
               		</label>
-					<label>
+					<label style=" font-weight: normal;">
 						<input type="checkbox" name="SelectedList[]" value="1">Debug redirection
 					</label>
-					<label>
+					<label style=" font-weight: normal;">
 						<input type="checkbox" name="SelectedList[]" value="2">Template Debug
-					</label>
-					<label>
+					</label >
+					<label style=" font-weight: normal;">
 						<input type="checkbox" name="SelectedList[]" value="3">Inline Template Debug
 					</label>
-					<label>
+					<label style=" font-weight: normal;">
 						<input type="checkbox" name="SelectedList[]" value="4">List of used template
 					</label>
-					<label>
+					<label style=" font-weight: normal;">
 						<input type="checkbox" name="SelectedList[]" value="5">SQL debug output
 					</label>
 				</form>
-				<p>siteacces:</p>
+				<p>Siteacces:</p>
 				<form>
 					<select>
 						<option>Général(override)</option>
